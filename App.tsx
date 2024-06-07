@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import CustomAlert from "./ui/AlertModal";
 import ButtonExamples from "./ui/Button";
 import MultilineTextInput from "./ui/MultiLineTextInput";
+import CSelect from "./ui/Select";
 import SelectControls from "./ui/SelectControls";
 import { BeautifulTextInput, InputWithLabel } from "./ui/TextInput";
 
@@ -34,6 +35,8 @@ export default function App() {
 				</View>
 				<View style={{ marginVertical: 8 }} />
 				<CustomAlert />
+				<View style={{ marginVertical: 8 }} />
+				<CSelect />
 			</ScrollView>
 		</SafeAreaView>
 	);
